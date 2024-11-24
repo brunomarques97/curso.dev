@@ -1,0 +1,22 @@
+h1 {
+    text-align:center;
+}
+
+.coracao {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    animation: cair 2s linear infinite;
+}
+
+@keyframes cair {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
